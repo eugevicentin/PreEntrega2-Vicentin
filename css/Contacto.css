@@ -87,6 +87,21 @@ body{
     padding-bottom: 50px;
 }
 
+label{
+    margin: 10px;
+    color: #8c7d62;
+    font-size: 15px;
+}
+.input:focus{
+    background-color: red;
+}
+
+.formulario{
+    border: 2px solid red ;
+    margin-top: 20px;
+}
+
+
 
 .grid-container-footer{
     border: 2px solid blue;
@@ -236,7 +251,6 @@ body{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
 
 
 

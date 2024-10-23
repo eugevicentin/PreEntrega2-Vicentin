@@ -1,0 +1,27 @@
+@import "../utilities/variables";
+
+// TAMAÑO BOTONES 
+
+@mixin boton-variables($p-left,$p-right,$p-bottom,$p-top){
+    padding-left: $p-left;
+    padding-right: $p-right;
+    padding-bottom: $p-bottom;
+    padding-top: $p-top;
+}
+
+.boton-partes{
+  @include boton-variables(30px, 30px, 15px, 15px)
+}
+
+.boton-productos{
+   @include boton-variables(35px, 35px, 15px, 15px)
+}
+ 
+.boton-tienda{
+    @include boton-variables(15px, 15px, 10px, 10px)
+}
+    
+
+.boton-info{
+    @include boton-variables(15px, 15px, 10px, 10px)
+}

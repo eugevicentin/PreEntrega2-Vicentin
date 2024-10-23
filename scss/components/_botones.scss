@@ -1,0 +1,26 @@
+@import "../utilities/variables";
+
+// ESTILO BOTONES 
+
+.boton-partes{
+    text-decoration: none;
+    background-color: $color-verde;
+    color: $color-blanco;
+    border-radius: 5px;
+    &:active{
+         background-color: $color-principal;
+         color: $color-verde;
+    }
+}
+
+.boton-productos{
+    @extend .boton-partes;
+}
+
+.boton-tienda{
+    @extend .boton-partes;
+}
+
+.boton-info{
+    @extend .boton-partes;
+}

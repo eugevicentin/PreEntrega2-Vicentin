@@ -1,0 +1,89 @@
+
+@import "../utilities/variables";
+
+.grid-container-footer-mobile{
+    display: none;
+}
+
+.grid-container-footer{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: $color-principal;
+    margin-top: 50px;
+    padding-top: 20px;
+    color:$color-blanco;
+    .grid-item-footer-1{
+        border: 2px solid red;
+        img{
+            width: 140px;
+            margin-left: 50px;
+        }
+    }
+    .grid-item-footer-2{
+        border: 2px solid red;
+        h5{
+            margin-left: 220px;
+        }
+        ul{
+            list-style: none;
+            padding-top: 10px;
+            li{
+                margin-top: 5px;
+                margin-left: 220px;
+                a{
+                    color:$color-marron;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .grid-item-footer-3{
+        border: 2px solid red;
+        h5{
+            margin-left: 30px;
+        }
+        ul{
+            list-style: none;
+            padding-top: 10px;
+            margin-bottom: 70px;
+            li{
+                margin-top: 5px;
+                margin-left: 30px;
+                a{
+                    color: $color-marron;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .grid-item-footer-4{
+        border: 2px solid red;
+        h5{
+            margin-left: 20px;
+        }
+        ul{
+            list-style: none;
+            color: $color-marron;
+            padding-top: 10px;
+            li{
+                margin-top: 5px;
+                margin-left: 20px;
+                a{
+                    color: $color-marron;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .grid-item-footer-5{
+        border: 2px solid red;
+        grid-column: 1/5;
+        text-align: center;
+        background-color: $color-marron;
+        color: $color-principal;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

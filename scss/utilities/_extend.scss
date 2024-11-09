@@ -2,23 +2,13 @@
 
 // BANNER DE LAS PÁGINAS
 
-.banner-inicio{
-    text-align: center;
-    color: $color-blanco;
-    font-weight: bolder;
-    background-image: url(../multimedia/remeras.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .banner-tienda{
     text-align: center;
-    color: $color-blanco;
+    color: $color-principal;
     font-weight: bolder;
+    font-size: 30px;
     background-image: linear-gradient( to bottom, $color-blanco,$color-principal);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 

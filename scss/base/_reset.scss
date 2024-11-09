@@ -11,11 +11,26 @@ body{
     background-color: $color-blanco;
     .anuncio-inicio{
         color: $color-blanco;
-        background: $color-principal;
         text-align: center;
-        font: bold;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: bold;
         padding: 4px;
+        animation-name: CambiarColor;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 1s;
+    }
+}
+
+@keyframes CambiarColor {
+    0%{
+        background-color: $color-principal;
+    }
+    50%{
+        background-color: $color-marron;
+    }
+    100%{
+        background-color: $color-principal;
     }
 }
